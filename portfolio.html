@@ -8,7 +8,6 @@
     <!--Google Font CSS-->
     <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
 
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
@@ -22,82 +21,81 @@
   </head>
   
   <body>
-    <div class="container">
 
-        <!--Navigation Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">DHF</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">DHF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </div>
+    </nav>        
+        
+    <main class="container">
+        
+      <h1 class="display-1">Portfolio</h1>
+
+      <!--First row of Projects-->
+      <section class="card-columns">
+        <a href="project1.html">
+            <div class="card shadow bg-dark" style="width: 100%;">
+                <img class="card-img-top" src="images/Godfather.jpg" alt="Godfather">
+              <div class="card-body">
+                <p class="card-text text-center">Project 1</p>
+              </div>
             </div>
-        </nav>        
-        
-        
-        <h1 class="display-1">Portfolio</h1>
+        </a>  
 
-<!--First row of Projects-->
-        <div class="card-columns">
-            <a href="project1.html">
-                <div class="card shadow" style="width: 100%;">
-                    <img class="card-img-top" src="images/Godfather.jpg" alt="Godfather">
-                  <div class="card-body">
-                    <p class="card-text text-center">Project 1</p>
-                  </div>
-                </div>
-            </a>  
-
-            <a href="project2.html">
-              <div class="card shadow" style="width: 100%;">
-                <img class="card-img-top" src="images/Yoda.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text text-center">Project 2</p>
-                </div>
-              </div>
-            </a>
-
-            <a href="project3.html">
-                <div class="card shadow" style="width: 100%;">
-                <img class="card-img-top" src="images/Latin.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text text-center">Project 3</p>
-                </div>
-              </div>
-            </a>
+        <a href="project2.html">
+          <div class="card shadow bg-dark" style="width: 100%;">
+            <img class="card-img-top" src="images/Yoda.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text text-center">Project 2</p>
+            </div>
           </div>
+        </a>
+
+        <a href="project3.html">
+            <div class="card shadow bg-dark" style="width: 100%;">
+            <img class="card-img-top" src="images/Latin.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text text-center">Project 3</p>
+            </div>
+          </div>
+        </a>
+      </section>
     
-
-
-    <!--Footer-->
-    <footer class="container-fluid footer fixed-bottom">
-      <div class="container text-center">
-        <p>Connect with me!</p>
-        <a href="https://linkedin.com/in/daniel-hawthorne-foss-4a42441b4" target="_blank" class="btn btn-lg btn-social-icon btn-linkedin">
-          <span class="fa fa-linkedin"></span>
-        </a>
-        <a href="https://github.com/dhfoss" target="_blank" class="btn btn-lg btn-social-icon btn-github">
-          <span class="fa fa-github"></span>
-        </a>
+      <!--Empty space so that sicky footer doesn't cover up content on small screens-->
+      <div class="container spacer invisible">
       </div>
-    </footer>
-  
-    
-    
-    </div>
 
-    
+      <!--Sticky Footer-->
+      <footer class="container-fluid footer fixed-bottom">
+        <div class="container text-center">
+          <p>Connect with me!</p>
+          <a href="https://linkedin.com/in/daniel-hawthorne-foss-4a42441b4" target="_blank" class="btn btn-lg btn-social-icon btn-linkedin">
+            <span class="fa fa-linkedin"></span>
+          </a>
+          <a href="https://github.com/dhfoss" target="_blank" class="btn btn-lg btn-social-icon btn-github">
+            <span class="fa fa-github"></span>
+          </a>
+        </div>
+      </footer>
+  
+    </main>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

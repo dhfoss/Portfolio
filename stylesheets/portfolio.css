@@ -1,10 +1,35 @@
+/* Color Scheme
+.Orange/blue-1-hex { color: #B3813B; }
+.Orange/blue-2-hex { color: #FFA21F; }
+.Orange/blue-3-hex { color: #F59105; }
+.Orange/blue-4-hex { color: #0068A8; }
+.Orange/blue-5-hex { color: #0599F5; } */
+
+body {
+    background-image: linear-gradient(to left, #0067A9 0%, 32.972440123558044%, #0598F5 65.94488024711609%, 82.97244012355804%, #238FD9 100%);
+}
+
+nav, footer {
+    background-image: linear-gradient(to right, #FFA21F 0%, 32.972440123558044%, #FFA21F 65.94488024711609%, 82.97244012355804%, #F59105 100%);
+}
+
+.biography {
+    color: whitesmoke;
+}
+
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 h1,
 .navbar, .navbar-brand,
-.footer {
+.footer,
+.card-text {
     font-family: 'Long Cang', cursive;
     font-size: 2em;
 }
-
 
 .card-img-top {
     width: 100%;
@@ -20,28 +45,6 @@ h1,
 
 }
 
-body {
-    background-image: /* Gradient in Hex */
-    linear-gradient(to right, #FEA31E 0%, 32.63157904148102%, #0167A9 65.26315808296204%, 82.63157904148102%, #58B5F4 100%);
+.spacer {
+    height: 125px;
 }
-
-/* Color Theme Swatches in Hex */
-/* .Orange/blue-1-hex { color: #B3813B; }
-.Orange/blue-2-hex { color: #FFA21F; }
-.Orange/blue-3-hex { color: #F59105; }
-.Orange/blue-4-hex { color: #0068A8; }
-.Orange/blue-5-hex { color: #0599F5; } */
-
-/* Color Theme Swatches in RGBA */
-/* .Orange/blue-1-rgba { color: rgba(179, 129, 59, 1); }
-.Orange/blue-2-rgba { color: rgba(255, 162, 31, 1); }
-.Orange/blue-3-rgba { color: rgba(245, 145, 5, 1); }
-.Orange/blue-4-rgba { color: rgba(0, 104, 168, 1); }
-.Orange/blue-5-rgba { color: rgba(5, 153, 245, 1); } */
-
-/* Color Theme Swatches in HSLA */
-/* .Orange/blue-1-hsla { color: hsla(35, 50, 46, 1); }
-.Orange/blue-2-hsla { color: hsla(35, 100, 56, 1); }
-.Orange/blue-3-hsla { color: hsla(34, 96, 49, 1); }
-.Orange/blue-4-hsla { color: hsla(202, 100, 32, 1); }
-.Orange/blue-5-hsla { color: hsla(203, 96, 49, 1); } */
