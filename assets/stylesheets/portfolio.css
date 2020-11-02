@@ -1,0 +1,72 @@
+/* Color Scheme
+.Orange/blue-1-hex { color: #B3813B; }
+.Orange/blue-2-hex { color: #FFA21F; }
+.Orange/blue-3-hex { color: #F59105; }
+.Orange/blue-4-hex { color: #0068A8; }
+.Orange/blue-5-hex { color: #0599F5; } */
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 103, 169, 1) 0%, 32.972440123558044%, rgba(5, 152, 245, 1) 65.94488024711609%, 82.97244012355804%, rgba(35, 143, 217, 1) 100%);
+}
+
+nav, footer {
+    background-image: linear-gradient(to right, #FFA21F 0%, 32.972440123558044%, #FFA21F 65.94488024711609%, 82.97244012355804%, #F59105 100%);}
+
+/* Blue 
+/* Gradient in RGBA */
+/* linear-gradient(to right, rgba(0, 103, 169, 1) 0%, 32.972440123558044%, rgba(5, 152, 245, 1) 65.94488024711609%, 82.97244012355804%, rgba(35, 143, 217, 1) 100%); */
+
+
+/* Gradient in RGBA */
+/* Dark Purple */
+/* linear-gradient(to right, rgba(7, 10, 15, 1) 0%, 22.439023852348328%, rgba(17, 21, 68, 1) 44.878047704696655%, 72.43902385234833%, rgba(49, 42, 93, 1) 100%); */
+
+/* Orange
+/* background-image: linear-gradient(to right, #FFA21F 0%, 32.972440123558044%, #FFA21F 65.94488024711609%, 82.97244012355804%, #F59105 100%); */
+/* Gradient in Hex */
+
+/* Gradient in RGBA */
+/* light purple
+/* linear-gradient(to right, rgba(59, 51, 111, 1) 0%, 22.439023852348328%, rgba(79, 68, 134, 1) 44.878047704696655%, 72.43902385234833%, rgba(118, 99, 180, 1) 100%); */
+
+
+.biography {
+    color: whitesmoke;
+}
+
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headshot1 {
+    width: 70%;
+    height: auto;
+}
+
+h1,
+.navbar, .navbar-brand,
+.footer,
+.card-text {
+    font-family: 'Long Cang', cursive;
+    font-size: 2em;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .card-img-top {
+        height: 100%;
+    }
+
+}
+
+.spacer {
+    height: 125px;
+}
