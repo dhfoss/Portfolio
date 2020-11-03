@@ -47,10 +47,12 @@ nav, footer {
 
 h1,
 .navbar, .navbar-brand,
-.footer,
+.footer-top,
 .card-text {
-    font-family: 'Long Cang', cursive;
+    /* Original font
+    /* font-family: 'Long Cang', cursive; */
     font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .card-img-top {
