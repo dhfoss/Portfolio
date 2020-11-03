@@ -10,7 +10,7 @@ body {
 }
 
 nav, footer {
-    background-image: linear-gradient(to right, #FFA21F 0%, 32.972440123558044%, #FFA21F 65.94488024711609%, 82.97244012355804%, #F59105 100%);}
+    background-image: linear-gradient(to left, #FFA21F 0%, 32.972440123558044%, #FFA21F 65.94488024711609%, 82.97244012355804%, #F59105 100%);}
 
 /* Blue 
 /* Gradient in RGBA */
@@ -41,19 +41,24 @@ nav, footer {
 }
 
 #headshot1 {
-    width: 70%;
+    width: 65%;
     height: auto;
 }
 
 h1,
 .navbar, .navbar-brand,
-.footer-top,
 .card-text {
     /* Original font
     /* font-family: 'Long Cang', cursive; */
     font-size: 2em;
     font-family: 'Permanent Marker', cursive;
 }
+
+.footer-top {
+    font-size: 1em;
+    font-family: 'Permanent Marker', cursive;
+}
+
 
 .card-img-top {
     width: 100%;
