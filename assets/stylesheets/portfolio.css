@@ -80,3 +80,17 @@ h1,
 .spacer {
     height: 165px;
 }
+#revize-container a{
+    color:#000;
+}
+
+#revize-container li a {
+    font-weight: 700;
+}
+
+#revize-container ul{
+    list-style: none;
+}
+#skills-container p{
+    font-weight: 700;
+}
